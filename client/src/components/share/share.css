@@ -1,0 +1,67 @@
+.share {
+  width: 100%;
+  height: 170px;
+  margin-top: 3.5rem;
+  border-radius: 5px;
+  margin-right: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+.share_wrapper {
+  padding: 20px;
+}
+.share_top {
+  display: flex;
+  align-items: center;
+}
+.share_profile_image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.input_field {
+  padding: 5px;
+  border: none;
+  width: 80%;
+}
+.input_field:focus {
+  outline: none;
+}
+.share_hr {
+  margin: 10px 0;
+}
+.share_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share_options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share_option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.share_icon {
+  margin-right: 3px;
+  font-size: 18px;
+}
+.share_option_text {
+  font-weight: 500;
+  font-size: 14px;
+}
+.share_option_btn {
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}
